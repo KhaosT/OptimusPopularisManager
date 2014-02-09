@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC00A3BD18A2292D0041BD7A /* Popularis.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC00A3BC18A2292D0041BD7A /* Popularis.plist */; };
+		CC5F3BC218A246BE005A7703 /* keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5F3BC118A246BE005A7703 /* keyboard.png */; };
+		CC5F3BC418A24D82005A7703 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5F3BC318A24D82005A7703 /* background.png */; };
+		CCA44C4F18A42A8D0073A17B /* OPMKeyboardControlWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA44C4D18A42A8D0073A17B /* OPMKeyboardControlWindowController.m */; };
+		CCA44C5018A42A8D0073A17B /* OPMKeyboardControlWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA44C4E18A42A8D0073A17B /* OPMKeyboardControlWindowController.xib */; };
+		CCB11B9218A31068000AECFE /* OPMUpdateQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB11B9118A31068000AECFE /* OPMUpdateQueue.m */; };
+		CCB407D218A2D09C00A29EE6 /* OPMKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB407D118A2D09C00A29EE6 /* OPMKeyboardView.m */; };
+		CCBE050718A1F5F5008D203D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBE050618A1F5F5008D203D /* Cocoa.framework */; };
+		CCBE051118A1F5F5008D203D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCBE050F18A1F5F5008D203D /* InfoPlist.strings */; };
+		CCBE051318A1F5F5008D203D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBE051218A1F5F5008D203D /* main.m */; };
+		CCBE051718A1F5F5008D203D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CCBE051518A1F5F5008D203D /* Credits.rtf */; };
+		CCBE051A18A1F5F5008D203D /* OPMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBE051918A1F5F5008D203D /* OPMAppDelegate.m */; };
+		CCBE051D18A1F5F5008D203D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCBE051B18A1F5F5008D203D /* MainMenu.xib */; };
+		CCBE051F18A1F5F5008D203D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBE051E18A1F5F5008D203D /* Images.xcassets */; };
+		CCBE052618A1F5F5008D203D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBE052518A1F5F5008D203D /* XCTest.framework */; };
+		CCBE052718A1F5F5008D203D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBE050618A1F5F5008D203D /* Cocoa.framework */; };
+		CCBE052F18A1F5F5008D203D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCBE052D18A1F5F5008D203D /* InfoPlist.strings */; };
+		CCBE053118A1F5F5008D203D /* OptimusPopularisManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBE053018A1F5F5008D203D /* OptimusPopularisManagerTests.m */; };
+		CCBE053C18A1F61E008D203D /* OPMKeyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBE053B18A1F61E008D203D /* OPMKeyButton.m */; };
+		CCBE053F18A1F8D0008D203D /* OPMPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBE053E18A1F8D0008D203D /* OPMPlugin.m */; };
+		CCBE054218A1F96E008D203D /* OPMKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBE054118A1F96E008D203D /* OPMKeyboard.m */; };
+		CCE861D318A2F5E600329BE5 /* OPMKeyButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE861D218A2F5E600329BE5 /* OPMKeyButtonView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCBE052818A1F5F5008D203D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCBE04FB18A1F5F5008D203D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCBE050218A1F5F5008D203D;
+			remoteInfo = OptimusPopularisManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC00A3BC18A2292D0041BD7A /* Popularis.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Popularis.plist; sourceTree = "<group>"; };
+		CC5F3BC118A246BE005A7703 /* keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard.png; sourceTree = "<group>"; };
+		CC5F3BC318A24D82005A7703 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		CCA44C4C18A42A8D0073A17B /* OPMKeyboardControlWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPMKeyboardControlWindowController.h; sourceTree = "<group>"; };
+		CCA44C4D18A42A8D0073A17B /* OPMKeyboardControlWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPMKeyboardControlWindowController.m; sourceTree = "<group>"; };
+		CCA44C4E18A42A8D0073A17B /* OPMKeyboardControlWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OPMKeyboardControlWindowController.xib; sourceTree = "<group>"; };
+		CCB11B9018A31068000AECFE /* OPMUpdateQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPMUpdateQueue.h; sourceTree = "<group>"; };
+		CCB11B9118A31068000AECFE /* OPMUpdateQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPMUpdateQueue.m; sourceTree = "<group>"; };
+		CCB407D018A2D09C00A29EE6 /* OPMKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPMKeyboardView.h; sourceTree = "<group>"; };
+		CCB407D118A2D09C00A29EE6 /* OPMKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPMKeyboardView.m; sourceTree = "<group>"; };
+		CCBE050318A1F5F5008D203D /* OptimusPopularisManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptimusPopularisManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBE050618A1F5F5008D203D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CCBE050918A1F5F5008D203D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CCBE050A18A1F5F5008D203D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CCBE050B18A1F5F5008D203D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCBE050E18A1F5F5008D203D /* OptimusPopularisManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OptimusPopularisManager-Info.plist"; sourceTree = "<group>"; };
+		CCBE051018A1F5F5008D203D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCBE051218A1F5F5008D203D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCBE051418A1F5F5008D203D /* OptimusPopularisManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OptimusPopularisManager-Prefix.pch"; sourceTree = "<group>"; };
+		CCBE051618A1F5F5008D203D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CCBE051818A1F5F5008D203D /* OPMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPMAppDelegate.h; sourceTree = "<group>"; };
+		CCBE051918A1F5F5008D203D /* OPMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPMAppDelegate.m; sourceTree = "<group>"; };
+		CCBE051C18A1F5F5008D203D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CCBE051E18A1F5F5008D203D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCBE052418A1F5F5008D203D /* OptimusPopularisManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptimusPopularisManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBE052518A1F5F5008D203D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CCBE052C18A1F5F5008D203D /* OptimusPopularisManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OptimusPopularisManagerTests-Info.plist"; sourceTree = "<group>"; };
+		CCBE052E18A1F5F5008D203D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCBE053018A1F5F5008D203D /* OptimusPopularisManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptimusPopularisManagerTests.m; sourceTree = "<group>"; };
+		CCBE053A18A1F61E008D203D /* OPMKeyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPMKeyButton.h; sourceTree = "<group>"; };
+		CCBE053B18A1F61E008D203D /* OPMKeyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPMKeyButton.m; sourceTree = "<group>"; };
+		CCBE053D18A1F8D0008D203D /* OPMPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPMPlugin.h; sourceTree = "<group>"; };
+		CCBE053E18A1F8D0008D203D /* OPMPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPMPlugin.m; sourceTree = "<group>"; };
+		CCBE054018A1F96E008D203D /* OPMKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPMKeyboard.h; sourceTree = "<group>"; };
+		CCBE054118A1F96E008D203D /* OPMKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPMKeyboard.m; sourceTree = "<group>"; };
+		CCE861D118A2F5E600329BE5 /* OPMKeyButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPMKeyButtonView.h; sourceTree = "<group>"; };
+		CCE861D218A2F5E600329BE5 /* OPMKeyButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPMKeyButtonView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCBE050018A1F5F5008D203D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBE050718A1F5F5008D203D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBE052118A1F5F5008D203D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBE052718A1F5F5008D203D /* Cocoa.framework in Frameworks */,
+				CCBE052618A1F5F5008D203D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCBE04FA18A1F5F5008D203D = {
+			isa = PBXGroup;
+			children = (
+				CCBE050C18A1F5F5008D203D /* OptimusPopularisManager */,
+				CCBE052A18A1F5F5008D203D /* OptimusPopularisManagerTests */,
+				CCBE050518A1F5F5008D203D /* Frameworks */,
+				CCBE050418A1F5F5008D203D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCBE050418A1F5F5008D203D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCBE050318A1F5F5008D203D /* OptimusPopularisManager.app */,
+				CCBE052418A1F5F5008D203D /* OptimusPopularisManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCBE050518A1F5F5008D203D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCBE050618A1F5F5008D203D /* Cocoa.framework */,
+				CCBE052518A1F5F5008D203D /* XCTest.framework */,
+				CCBE050818A1F5F5008D203D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCBE050818A1F5F5008D203D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCBE050918A1F5F5008D203D /* AppKit.framework */,
+				CCBE050A18A1F5F5008D203D /* CoreData.framework */,
+				CCBE050B18A1F5F5008D203D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CCBE050C18A1F5F5008D203D /* OptimusPopularisManager */ = {
+			isa = PBXGroup;
+			children = (
+				CCBE051818A1F5F5008D203D /* OPMAppDelegate.h */,
+				CCBE051918A1F5F5008D203D /* OPMAppDelegate.m */,
+				CCA44C4C18A42A8D0073A17B /* OPMKeyboardControlWindowController.h */,
+				CCA44C4D18A42A8D0073A17B /* OPMKeyboardControlWindowController.m */,
+				CCA44C4E18A42A8D0073A17B /* OPMKeyboardControlWindowController.xib */,
+				CCB407D018A2D09C00A29EE6 /* OPMKeyboardView.h */,
+				CCB407D118A2D09C00A29EE6 /* OPMKeyboardView.m */,
+				CCE861D118A2F5E600329BE5 /* OPMKeyButtonView.h */,
+				CCE861D218A2F5E600329BE5 /* OPMKeyButtonView.m */,
+				CCBE054018A1F96E008D203D /* OPMKeyboard.h */,
+				CCBE054118A1F96E008D203D /* OPMKeyboard.m */,
+				CCBE053A18A1F61E008D203D /* OPMKeyButton.h */,
+				CCBE053B18A1F61E008D203D /* OPMKeyButton.m */,
+				CCB11B9018A31068000AECFE /* OPMUpdateQueue.h */,
+				CCB11B9118A31068000AECFE /* OPMUpdateQueue.m */,
+				CCBE053D18A1F8D0008D203D /* OPMPlugin.h */,
+				CCBE053E18A1F8D0008D203D /* OPMPlugin.m */,
+				CCBE051B18A1F5F5008D203D /* MainMenu.xib */,
+				CC5F3BC118A246BE005A7703 /* keyboard.png */,
+				CC5F3BC318A24D82005A7703 /* background.png */,
+				CCBE051E18A1F5F5008D203D /* Images.xcassets */,
+				CCBE050D18A1F5F5008D203D /* Supporting Files */,
+				CC00A3BC18A2292D0041BD7A /* Popularis.plist */,
+			);
+			path = OptimusPopularisManager;
+			sourceTree = "<group>";
+		};
+		CCBE050D18A1F5F5008D203D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCBE050E18A1F5F5008D203D /* OptimusPopularisManager-Info.plist */,
+				CCBE050F18A1F5F5008D203D /* InfoPlist.strings */,
+				CCBE051218A1F5F5008D203D /* main.m */,
+				CCBE051418A1F5F5008D203D /* OptimusPopularisManager-Prefix.pch */,
+				CCBE051518A1F5F5008D203D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCBE052A18A1F5F5008D203D /* OptimusPopularisManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCBE053018A1F5F5008D203D /* OptimusPopularisManagerTests.m */,
+				CCBE052B18A1F5F5008D203D /* Supporting Files */,
+			);
+			path = OptimusPopularisManagerTests;
+			sourceTree = "<group>";
+		};
+		CCBE052B18A1F5F5008D203D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCBE052C18A1F5F5008D203D /* OptimusPopularisManagerTests-Info.plist */,
+				CCBE052D18A1F5F5008D203D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCBE050218A1F5F5008D203D /* OptimusPopularisManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBE053418A1F5F5008D203D /* Build configuration list for PBXNativeTarget "OptimusPopularisManager" */;
+			buildPhases = (
+				CCBE04FF18A1F5F5008D203D /* Sources */,
+				CCBE050018A1F5F5008D203D /* Frameworks */,
+				CCBE050118A1F5F5008D203D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OptimusPopularisManager;
+			productName = OptimusPopularisManager;
+			productReference = CCBE050318A1F5F5008D203D /* OptimusPopularisManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCBE052318A1F5F5008D203D /* OptimusPopularisManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBE053718A1F5F5008D203D /* Build configuration list for PBXNativeTarget "OptimusPopularisManagerTests" */;
+			buildPhases = (
+				CCBE052018A1F5F5008D203D /* Sources */,
+				CCBE052118A1F5F5008D203D /* Frameworks */,
+				CCBE052218A1F5F5008D203D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCBE052918A1F5F5008D203D /* PBXTargetDependency */,
+			);
+			name = OptimusPopularisManagerTests;
+			productName = OptimusPopularisManagerTests;
+			productReference = CCBE052418A1F5F5008D203D /* OptimusPopularisManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCBE04FB18A1F5F5008D203D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OPM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Oltica;
+				TargetAttributes = {
+					CCBE052318A1F5F5008D203D = {
+						TestTargetID = CCBE050218A1F5F5008D203D;
+					};
+				};
+			};
+			buildConfigurationList = CCBE04FE18A1F5F5008D203D /* Build configuration list for PBXProject "OptimusPopularisManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCBE04FA18A1F5F5008D203D;
+			productRefGroup = CCBE050418A1F5F5008D203D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCBE050218A1F5F5008D203D /* OptimusPopularisManager */,
+				CCBE052318A1F5F5008D203D /* OptimusPopularisManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCBE050118A1F5F5008D203D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBE051118A1F5F5008D203D /* InfoPlist.strings in Resources */,
+				CCA44C5018A42A8D0073A17B /* OPMKeyboardControlWindowController.xib in Resources */,
+				CCBE051F18A1F5F5008D203D /* Images.xcassets in Resources */,
+				CC5F3BC418A24D82005A7703 /* background.png in Resources */,
+				CC5F3BC218A246BE005A7703 /* keyboard.png in Resources */,
+				CCBE051718A1F5F5008D203D /* Credits.rtf in Resources */,
+				CC00A3BD18A2292D0041BD7A /* Popularis.plist in Resources */,
+				CCBE051D18A1F5F5008D203D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBE052218A1F5F5008D203D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBE052F18A1F5F5008D203D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCBE04FF18A1F5F5008D203D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB407D218A2D09C00A29EE6 /* OPMKeyboardView.m in Sources */,
+				CCBE051318A1F5F5008D203D /* main.m in Sources */,
+				CCE861D318A2F5E600329BE5 /* OPMKeyButtonView.m in Sources */,
+				CCBE053F18A1F8D0008D203D /* OPMPlugin.m in Sources */,
+				CCBE054218A1F96E008D203D /* OPMKeyboard.m in Sources */,
+				CCBE051A18A1F5F5008D203D /* OPMAppDelegate.m in Sources */,
+				CCA44C4F18A42A8D0073A17B /* OPMKeyboardControlWindowController.m in Sources */,
+				CCBE053C18A1F61E008D203D /* OPMKeyButton.m in Sources */,
+				CCB11B9218A31068000AECFE /* OPMUpdateQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBE052018A1F5F5008D203D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBE053118A1F5F5008D203D /* OptimusPopularisManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCBE052918A1F5F5008D203D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCBE050218A1F5F5008D203D /* OptimusPopularisManager */;
+			targetProxy = CCBE052818A1F5F5008D203D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCBE050F18A1F5F5008D203D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBE051018A1F5F5008D203D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCBE051518A1F5F5008D203D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBE051618A1F5F5008D203D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CCBE051B18A1F5F5008D203D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBE051C18A1F5F5008D203D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CCBE052D18A1F5F5008D203D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBE052E18A1F5F5008D203D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCBE053218A1F5F5008D203D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CCBE053318A1F5F5008D203D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CCBE053518A1F5F5008D203D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OptimusPopularisManager/OptimusPopularisManager-Prefix.pch";
+				INFOPLIST_FILE = "OptimusPopularisManager/OptimusPopularisManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCBE053618A1F5F5008D203D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OptimusPopularisManager/OptimusPopularisManager-Prefix.pch";
+				INFOPLIST_FILE = "OptimusPopularisManager/OptimusPopularisManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCBE053818A1F5F5008D203D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OptimusPopularisManager.app/Contents/MacOS/OptimusPopularisManager";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OptimusPopularisManager/OptimusPopularisManager-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OptimusPopularisManagerTests/OptimusPopularisManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CCBE053918A1F5F5008D203D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OptimusPopularisManager.app/Contents/MacOS/OptimusPopularisManager";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OptimusPopularisManager/OptimusPopularisManager-Prefix.pch";
+				INFOPLIST_FILE = "OptimusPopularisManagerTests/OptimusPopularisManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCBE04FE18A1F5F5008D203D /* Build configuration list for PBXProject "OptimusPopularisManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBE053218A1F5F5008D203D /* Debug */,
+				CCBE053318A1F5F5008D203D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCBE053418A1F5F5008D203D /* Build configuration list for PBXNativeTarget "OptimusPopularisManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBE053518A1F5F5008D203D /* Debug */,
+				CCBE053618A1F5F5008D203D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCBE053718A1F5F5008D203D /* Build configuration list for PBXNativeTarget "OptimusPopularisManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBE053818A1F5F5008D203D /* Debug */,
+				CCBE053918A1F5F5008D203D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCBE04FB18A1F5F5008D203D /* Project object */;
+}
